@@ -1,5 +1,5 @@
 'use strict';
-import Day from './Day'
+import Day from './Day.js'
 class Week{
     constructor(date) {
         this._days = [];

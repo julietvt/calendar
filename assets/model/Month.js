@@ -1,11 +1,11 @@
 "use strict";
 
-import Week from './Week'
+import Week from './Week.js'
 
 class Month{
-    constructor() {
+    constructor(date) {
 
-        this._weeeks = [];
+        this._weeks = [];
         this._date = date;
         const nextMonday = Week.getMonday(new Date(this.date.getFullYear(), this.date.getMonth(), 1));
         do{

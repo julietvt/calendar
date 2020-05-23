@@ -19,3 +19,5 @@ class Day{
     }
     static currentDate = new Date();
 }
+
+export default Day;
