@@ -1,0 +1,36 @@
+body{
+    font-family: monospace;
+}
+table{
+    margin: 0 auto;
+    --themeColor: #331918;
+    font-size: 44px;
+    border-collapse: collapse;
+    font-weight: bold;
+    color: var(--themeColor);
+}
+thead{
+    background-color: #FFE4C4;
+}
+td{
+    font-size: 14px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--themeColor);
+    height: 70px;
+    min-width: 70px;
+    vertical-align: text-top;
+}
+.weeksDays{
+    font-size: 24px;
+}
+.weeksDays > th{
+    text-transform: uppercase;
+}
+th{
+    box-sizing: border-box;
+    padding: 10px;
+}
+.monthName{
+    text-transform: capitalize;
+}
